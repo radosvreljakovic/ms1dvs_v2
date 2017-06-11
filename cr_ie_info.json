@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "linux64",
+		"os_name" : "Ubuntu 16.04.2",
+		"os_version" : "16"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "    /home/raki/altera/15.0/quartus/linux64/tcl8.6 /build/swbuild/eykan/acds/quartus/extlibs64/tcl/lib/tcl8.6 ./tcl8.6 ./lib/tcl8.6 ./lib/tcl8.6 ./library ./library ./tcl8.6.1/library ./tcl8.6.1/library\n\n\n\nThis probably means that Tcl wasn't installed properly.\n",
+		"source_file" : "/quartus/ccl/atcl/atcl_root.cpp",
+		"line" : "348",
+		"stack_trace" : "\t0x7f661ca75d97: ccl_err + 0x7d97 (_Z25err_report_internal_errorPKcS0_S0_i + 0x16)\n\t0x7f661d9e604e: ccl_atcl + 0x1d04e (_Z23atcl_create_interpreterv + 0x226)\n\t0x7f661d9e9f5c: ccl_atcl + 0x20f5c (_Z20atcl_get_interpreterv + 0x29)\n\t0x7f65fb99b7ab: sys_sscq + 0xd7ab (sscq_sscq_unregister_tcl + 0x6)\n\t0x7f65fb99b811: sys_sscq + 0xd811 (Sscq_Unload + 0x9)\n\t0x7f65fb99b833: sys_sscq + 0xd833\n\t0x7f66145f7ff8: c.so.6 + 0x39ff8\n\t0x7f66145f8045: c.so.6 + 0x3a045\n\t0x7f66145de837: c.so.6 + 0x20837 (__libc_start_main + 0xf7)\n\t   0x40b4b1: quartus + 0xb4b1\n",
+		"subsystem" : "ATCL"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "15.0.0",
+		"build" : "145",
+		"edition" : "Web Edition"
+	}
+}
